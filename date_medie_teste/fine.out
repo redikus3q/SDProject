@@ -1,0 +1,131 @@
+Teste pentru un vector strict crescator de 1e4 elemente:
+Bubblesort: 0s
+Mergesort: 0.00399s
+Radixsort baza 10: 0.008977s
+Radixsort baza 2: 0.008975s
+Radixsort baza 256: 0.001028s
+Countsort: 0.208409s
+Quicksort pivot ultimul element: 0.059867s
+Quicksort pivot mediana de 3: 0.000998s
+Quicksort pivot random: 0.059811s
+
+Teste pentru un vector strict descrescator de 1e4 elemente:
+Bubblesort: 0.768978s
+Mergesort: 0.004987s
+Radixsort baza 10: 0.00798s
+Radixsort baza 2: 0.008974s
+Radixsort baza 256: 0.000995s
+Countsort: 0.208441s
+Quicksort pivot ultimul element: 0.059868s
+Quicksort pivot mediana de 3: 0.001996s
+Quicksort pivot random: 0.05984s
+
+Teste pentru un vector constant de 1e4 elemente:
+Bubblesort: 0s
+Mergesort: 0.003989s
+Radixsort baza 10: 0.001998s
+Radixsort baza 2: 0.001994s
+Radixsort baza 256: 0s
+Countsort: 0.217391s
+Quicksort pivot ultimul element: 0.177525s
+Quicksort pivot mediana de 3: 0.08976s
+Quicksort pivot random: 0.178555s
+
+Teste pentru un vector de 1e4 elemente intre -1e4 si 1e4:
+Bubblesort: 0.723065s
+Mergesort: 0.004986s
+Radixsort baza 10: 0.008966s
+Radixsort baza 2: 0.008975s
+Radixsort baza 256: 0.001995s
+Countsort: 0.213401s
+Quicksort pivot ultimul element: 0.060869s
+Quicksort pivot mediana de 3: 0.000999s
+Quicksort pivot random: 0.060836s
+
+Teste pentru un vector de 1e4 elemente pozitive intre 0 si 1e8:
+Bubblesort: 0.702092s
+Mergesort: 0.004989s
+Radixsort baza 10: 0.015985s
+Radixsort baza 2: 0.015959s
+Radixsort baza 256: 0.00299s
+Countsort: 0.375994s
+Quicksort pivot ultimul element: 0.059841s
+Quicksort pivot mediana de 3: 0.000994s
+Quicksort pivot random: 0.059836s
+
+Teste pentru un vector de 1e4 elemente intre -1e8 si 1e8:
+Bubblesort: 0.704121s
+Mergesort: 0.00498s
+Radixsort baza 10: 0.015954s
+Radixsort baza 2: 0.016951s
+Radixsort baza 256: 0.002987s
+Countsort: Interval prea mare pentru countsort.
+Quicksort pivot ultimul element: 0.058871s
+Quicksort pivot mediana de 3: 0.001991s
+Quicksort pivot random: 0.058842s
+
+Teste pentru un vector de 1e4 elemente intre -1e16 si 1e16:
+Bubblesort: 0.704114s
+Mergesort: 0.004989s
+Radixsort baza 10: 0.031915s
+Radixsort baza 2: 0.032912s
+Radixsort baza 256: 0.00399s
+Countsort: Interval prea mare pentru countsort.
+Quicksort pivot ultimul element: 0.059839s
+Quicksort pivot mediana de 3: 0.001032s
+Quicksort pivot random: 0.058842s
+
+Teste pentru un vector de 1e6 elemente intre -1e4 si 1e4:
+Bubblesort: Vector prea mare pentru bubblesort. Pentru 1e5 numere ia peste un minut (~73s).
+Mergesort: 0.541549s
+Radixsort baza 10: 0.88463s
+Radixsort baza 2: 0.887626s
+Radixsort baza 256: 0.155584s
+Countsort: 0.238362s
+Quicksort pivot ultimul element: Vector prea mare pentru acest pivot. ~8s pentru 1e6 numere.
+Quicksort pivot mediana de 3: 0.219413s
+Quicksort pivot random: Vector prea mare pentru acest pivot. ~8s pentru 1e6 numere.
+
+Teste pentru un vector de 1e6 elemente intre -1e8 si 1e8:
+Bubblesort: Vector prea mare pentru bubblesort. Pentru 1e5 numere ia peste un minut (~73s).
+Mergesort: 0.551525s
+Radixsort baza 10: 1.68147s
+Radixsort baza 2: 1.6825s
+Radixsort baza 256: 0.278256s
+Countsort: Interval prea mare pentru countsort.
+Quicksort pivot ultimul element: Vector prea mare pentru acest pivot. ~8s pentru 1e6 numere.
+Quicksort pivot mediana de 3: 0.204426s
+Quicksort pivot random: Vector prea mare pentru acest pivot. ~8s pentru 1e6 numere.
+
+Teste pentru un vector de 1e6 elemente intre -1e16 si 1e16:
+Bubblesort: Vector prea mare pentru bubblesort. Pentru 1e5 numere ia peste un minut (~73s).
+Mergesort: 0.549557s
+Radixsort baza 10: 3.31114s
+Radixsort baza 2: 3.34606s
+Radixsort baza 256: 0.457775s
+Countsort: Interval prea mare pentru countsort.
+Quicksort pivot ultimul element: Vector prea mare pentru acest pivot. ~8s pentru 1e6 numere.
+Quicksort pivot mediana de 3: 0.200463s
+Quicksort pivot random: Vector prea mare pentru acest pivot. ~8s pentru 1e6 numere.
+
+Teste pentru un vector de 1e7 elemente intre -1e16 si 1e16:
+Bubblesort: Vector prea mare pentru bubblesort. Pentru 1e5 numere ia peste un minut (~73s).
+Mergesort: 5.95507s
+Radixsort baza 10: 33.3208s
+Radixsort baza 2: 33.9901s
+Radixsort baza 256: 4.7933s
+Countsort: Interval prea mare pentru countsort.
+Quicksort pivot ultimul element: Vector prea mare pentru acest pivot. ~8s pentru 1e6 numere.
+Quicksort pivot mediana de 3: 2.36169s
+Quicksort pivot random: Vector prea mare pentru acest pivot. ~8s pentru 1e6 numere.
+
+Teste pentru un vector de 1e7 elemente pozitive intre 0 si 1e16
+Bubblesort: Vector prea mare pentru bubblesort. Pentru 1e5 numere ia peste un minut (~73s).
+Mergesort: 6.0368s
+Radixsort baza 10: 33.0885s
+Radixsort baza 2: 33.0596s
+Radixsort baza 256: 4.3903s
+Countsort: Interval prea mare pentru countsort.
+Quicksort pivot ultimul element: Vector prea mare pentru acest pivot. ~8s pentru 1e6 numere.
+Quicksort pivot mediana de 3: 2.37265s
+Quicksort pivot random: Vector prea mare pentru acest pivot. ~8s pentru 1e6 numere.

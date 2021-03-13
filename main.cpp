@@ -10,7 +10,7 @@
 #include "quicksort.hpp"
 using namespace std;
 
-ofstream out("data/latest.out");
+ofstream out("date_medie_teste/latest.out");
 
 bool validate(vector<long long> a){
     vector<long long> b=a;
@@ -174,7 +174,7 @@ int main(){
 
     //RND1
     cout<<endl<<"Teste pentru un vector de 1e4 elemente intre -1e4 si 1e4:"<<endl;
-    generator(a, -1e16, 1e16, 1e4);
+    generator(a, -1e4, 1e4, 1e4);
     functions(a);
 
     //RND1EXTRA
@@ -217,5 +217,7 @@ int main(){
     cout<<endl<<"Teste pentru un vector de 1e7 elemente pozitive intre 0 si 1e16"<<endl;
     generator(a, 0, 1e16, 1e7);
     functions(a);
+
+    out.close();
 
 }

@@ -16,7 +16,7 @@ void countsort(vector<long long>& a){
         }
     }
     long long range=llabs(mx-mi);
-    if(range>(int)1e8){
+    if(range>(long long)1e8){
         throw runtime_error("Range prea mare pentru countsort.");
     }
     for(long long i:a){

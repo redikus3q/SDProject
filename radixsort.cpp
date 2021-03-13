@@ -6,8 +6,8 @@ void count1(vector<long long>& a, long long d, long long baza){
     long long c;
     vector<long long> frecv;
     frecv.assign(baza, 0);
-    vector<long long> cout;
-    cout.assign(a.size(), 0);
+    vector<long long> ccout;
+    ccout.assign(a.size(), 0);
     for(long long i:a){
         frecv[(llabs(i)/d)%baza]++;
     }
@@ -16,18 +16,18 @@ void count1(vector<long long>& a, long long d, long long baza){
     }
     for(long long i=a.size()-1;i>=0;i--){
         c=a[i];
-        cout[frecv[(llabs(c)/d)%baza]-1]=c;
+        ccout[frecv[(llabs(c)/d)%baza]-1]=c;
         frecv[(llabs(c)/d)%baza]--;
     }
-    a=cout;
+    a=ccout;
 }
 
 void countneg(vector<long long>& a){
     long long c;
     vector<long long> frecv;
     frecv.assign(2, 0);
-    vector<long long> cout;
-    cout.assign(a.size(), 0);
+    vector<long long> ccout;
+    ccout.assign(a.size(), 0);
     for(long long i:a){
         if(i>0){
             frecv[1]++;
@@ -41,15 +41,15 @@ void countneg(vector<long long>& a){
     for(long long i=a.size()-1;i>=0;i--){
         c=a[i];
         if(c>0){
-            cout[frecv[1]-1]=c;
+            ccout[frecv[1]-1]=c;
             frecv[1]--;
         }
         else{
-            cout[cfrec-(frecv[0]-1)-1]=c;
+            ccout[cfrec-(frecv[0]-1)-1]=c;
             frecv[0]--;
         }
     }
-    a=cout;
+    a=ccout;
 }
 
 void radixsort(vector<long long>& a, long long baza){
