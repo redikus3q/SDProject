@@ -214,7 +214,7 @@ int main(){
     functions(a);
 
     //RND8
-    cout<<endl<<"Teste pentru un vector de 1e7 elemente pozitive intre 0 si 1e16"<<endl;
+    cout<<endl<<"Teste pentru un vector de 1e7 elemente pozitive intre 0 si 1e16:"<<endl;
     generator(a, 0, 1e16, 1e7);
     functions(a);
 

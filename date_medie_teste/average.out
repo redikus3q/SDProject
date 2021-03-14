@@ -1,0 +1,133 @@
+0 = Nu s-au rulat teste pentru respectiva sortare.
+
+Teste pentru un vector strict crescator de 1e4 elemente:
+bubble - 0.000966
+merge - 0.00498
+radix10 - 0.007393
+radix2 - 0.007797
+radix256 - 0.001203
+count - 0.204261
+quicklast - 0.05886
+quick3 - 0.000999
+quickrandom - 0.058665
+
+Teste pentru un vector strict descrescator de 1e4 elemente:
+bubble - 0.743621
+merge - 0.004004
+radix10 - 0.007977
+radix2 - 0.007987
+radix256 - 0.001203
+count - 0.205253
+quicklast - 0.058056
+quick3 - 0.001021
+quickrandom - 0.058841
+
+Teste pentru un vector constant de 1e4 elemente:
+bubble - 0.000852
+merge - 0.003989
+radix10 - 0.002001
+radix2 - 0.001411
+radix256 - 0.001004
+count - 0.210038
+quicklast - 0.173752
+quick3 - 0.085598
+quickrandom - 0.171357
+
+Teste pentru un vector de 1e4 elemente intre -1e4 si 1e4:
+bubble - 0.694767
+merge - 0.004805
+radix10 - 0.030735
+radix2 - 0.030928
+radix256 - 0.004206
+count - 0.214503
+quicklast - 0.058855
+quick3 - 0.001607
+quickrandom - 0.059447
+
+Teste pentru un vector de 1e4 elemente pozitive intre 0 si 1e8:
+bubble - 0.695559
+merge - 0.005003
+radix10 - 0.014963
+radix2 - 0.014975
+radix256 - 0.002216
+count - 0.364638
+quicklast - 0.058268
+quick3 - 0.001213
+quickrandom - 0.058666
+
+Teste pentru un vector de 1e4 elemente intre -1e8 si 1e8:
+bubble - 0.694958
+merge - 0.004792
+radix10 - 0.015374
+radix2 - 0.015574
+radix256 - 0.002608
+count - 0
+quicklast - 0.059054
+quick3 - 0.001607
+quickrandom - 0.058856
+
+Teste pentru un vector de 1e4 elemente intre -1e16 si 1e16:
+bubble - 0.694565
+merge - 0.004206
+radix10 - 0.030143
+radix2 - 0.029947
+radix256 - 0.004606
+count - 0
+quicklast - 0.058655
+quick3 - 0.001016
+quickrandom - 0.058468
+
+Teste pentru un vector de 1e6 elemente intre -1e4 si 1e4:
+bubble - 0
+merge - 0.534994
+radix10 - 0.824204
+radix2 - 0.825996
+radix256 - 0.147219
+count - 0.232193
+quicklast - 0
+quick3 - 0.217442
+quickrandom - 0
+
+Teste pentru un vector de 1e6 elemente intre -1e8 si 1e8:
+bubble - 0
+merge - 0.544162
+radix10 - 1.55266
+radix2 - 1.559254
+radix256 - 0.260528
+count - 0
+quicklast - 0
+quick3 - 0.199875
+quickrandom - 0
+
+Teste pentru un vector de 1e6 elemente intre -1e16 si 1e16:
+bubble - 0
+merge - 0.541369
+radix10 - 3.071792
+radix2 - 3.074598
+radix256 - 0.429072
+count - 0
+quicklast - 0
+quick3 - 0.199881
+quickrandom - 0
+
+Teste pentru un vector de 1e7 elemente pozitive intre -1e16 si 1e16:
+bubble - 0
+merge - 5.848378
+radix10 - 30.66776
+radix2 - 30.77016
+radix256 - 4.270596
+count - 0
+quicklast - 0
+quick3 - 2.322
+quickrandom - 0
+
+Teste pentru un vector de 1e7 elemente pozitive intre 0 si 1e16:
+bubble - 0
+merge - 5.854366
+radix10 - 30.46534
+radix2 - 30.359
+radix256 - 3.973956
+count - 0
+quicklast - 0
+quick3 - 2.296256
+quickrandom - 0
