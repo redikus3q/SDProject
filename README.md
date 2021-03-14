@@ -1,1 +1,1 @@
-# SDProject
+# SDProject - Tiganus Alexandru-Daniel
