@@ -4,7 +4,7 @@ f3=open("C:/Users/Andu/Desktop/SDProject/date_medie_teste/test3.out")
 f4=open("C:/Users/Andu/Desktop/SDProject/date_medie_teste/test4.out")
 f5=open("C:/Users/Andu/Desktop/SDProject/date_medie_teste/test5.out")
 f=open("C:/Users/Andu/Desktop/SDProject/date_medie_teste/average.out", "w")
-rez=[[0, 0] for i in range(108)]
+rez=[[0, 0] for i in range(117)]
 flist=[f1, f2, f3, f4, f5]
 text=["\nTeste pentru un vector strict crescator de 1e4 elemente:\n",
 "\nTeste pentru un vector strict descrescator de 1e4 elemente:\n",
@@ -17,7 +17,8 @@ text=["\nTeste pentru un vector strict crescator de 1e4 elemente:\n",
 "\nTeste pentru un vector de 1e6 elemente intre -1e8 si 1e8:\n",
 "\nTeste pentru un vector de 1e6 elemente intre -1e16 si 1e16:\n",
 "\nTeste pentru un vector de 1e7 elemente pozitive intre -1e16 si 1e16:\n",
-"\nTeste pentru un vector de 1e7 elemente pozitive intre 0 si 1e16:\n"] 
+"\nTeste pentru un vector de 1e7 elemente pozitive intre 0 si 1e16:\n",
+"\nTeste pentru un vector de 1e5 elemente pozitive intre 0 si 1e3:\n"] 
 sorturi=["bubble - ",
 "merge - ",
 "radix10 - ",
@@ -49,7 +50,7 @@ for i in rez:
     if i[1]==0:
         f.write("0\n")
     else:
-        f.write(str(round(i[0]/i[1], 6))+"\n")
+        f.write(str(round(i[0]/i[1], 6))+"s\n")
     j+=1
 for i in flist:
     i.close()

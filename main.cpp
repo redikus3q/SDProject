@@ -198,25 +198,30 @@ int main(){
     generator(a, -1e4, 1e4, 1e6);
     functions(a);
 
-    //RND5
-    cout<<endl<<"Teste pentru un vector de 1e6 elemente intre -1e8 si 1e8:"<<endl;
-    generator(a, -1e8, 1e8, 1e6);
-    functions(a);
+//    //RND5
+//    cout<<endl<<"Teste pentru un vector de 1e6 elemente intre -1e8 si 1e8:"<<endl;
+//    generator(a, -1e8, 1e8, 1e6);
+//    functions(a);
+//
+//    //RND6
+//    cout<<endl<<"Teste pentru un vector de 1e6 elemente intre -1e16 si 1e16:"<<endl;
+//    generator(a, -1e16, 1e16, 1e6);
+//    functions(a);
+//
+//    //RND7
+//    cout<<endl<<"Teste pentru un vector de 1e7 elemente intre -1e16 si 1e16:"<<endl;
+//    generator(a, -1e16, 1e16, 1e7);
+//    functions(a);
+//
+//    //RND8
+//    cout<<endl<<"Teste pentru un vector de 1e7 elemente pozitive intre 0 si 1e16:"<<endl;
+//    generator(a, 0, 1e16, 1e7);
+//    functions(a);
 
-    //RND6
-    cout<<endl<<"Teste pentru un vector de 1e6 elemente intre -1e16 si 1e16:"<<endl;
-    generator(a, -1e16, 1e16, 1e6);
-    functions(a);
-
-    //RND7
-    cout<<endl<<"Teste pentru un vector de 1e7 elemente intre -1e16 si 1e16:"<<endl;
-    generator(a, -1e16, 1e16, 1e7);
-    functions(a);
-
-    //RND8
-    cout<<endl<<"Teste pentru un vector de 1e7 elemente pozitive intre 0 si 1e16:"<<endl;
-    generator(a, 0, 1e16, 1e7);
-    functions(a);
+//    //RND9
+//    cout<<endl<<"Teste pentru un vector de 1e5 elemente pozitive intre 0 si 1e3:"<<endl;
+//    generator(a, 0, 1e3, 1e5);
+//    functions(a);
 
     out.close();
 

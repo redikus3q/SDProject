@@ -6,7 +6,6 @@ void countsort(vector<long long>& a){
     long long mx=a[0]; //max
     long long mi=a[0]; //min
     vector<long long> frecv;
-    frecv.assign((long long)1e8, 0);
     for(long long i:a){
         if(i>mx){
             mx=i;
@@ -16,6 +15,7 @@ void countsort(vector<long long>& a){
         }
     }
     long long range=llabs(mx-mi);
+    frecv.assign(range+1, 0);
     if(range>(long long)1e8){
         throw runtime_error("Range prea mare pentru countsort.");
     }
