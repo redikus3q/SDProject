@@ -10,7 +10,7 @@
 #include "quicksort.hpp"
 using namespace std;
 
-ofstream out("date_medie_teste/latest.out");
+ofstream out("date_medie_teste/test5.out");
 
 bool validate(vector<long long> a){
     vector<long long> b=a;
@@ -124,6 +124,13 @@ void functions(vector<long long> a){
             out<<0<<endl;
             cout<<"Vector prea mare pentru acest pivot. ~8s pentru 1e6 numere."<<endl;
         }
+
+        a=ca;
+        cout<<"STL Sort: ";
+        before = std::chrono::steady_clock::now();
+        sort(a.begin(), a.end());
+        after = std::chrono::steady_clock::now();
+        showtime(after-before, a);
 
 }
 

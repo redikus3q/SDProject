@@ -1,144 +1,157 @@
 0 = Nu s-au rulat teste pentru respectiva sortare.
 
 Teste pentru un vector strict crescator de 1e4 elemente:
-bubble - 0.000966s
-merge - 0.004598s
-radix10 - 0.008183s
-radix2 - 0.007594s
-radix256 - 0.001208s
-count - 0.000987s
-quicklast - 0.06102s
-quick3 - 0.000991s
-quickrandom - 0.060241s
+bubble - 0.001007s
+merge - 0.00459s
+radix10 - 0.007986s
+radix2 - 0.008179s
+radix256 - 0.001402s
+count - 0.001001s
+quicklast - 0.060762s
+quick3 - 0.001004s
+quickrandom - 0.060083s
+stl - 0.000999s
 
 Teste pentru un vector strict descrescator de 1e4 elemente:
-bubble - 0.763407s
-merge - 0.004415s
-radix10 - 0.008175s
-radix2 - 0.007982s
-radix256 - 0.001397s
-count - 0.000998s
-quicklast - 0.060637s
-quick3 - 0.001603s
-quickrandom - 0.061077s
+bubble - 0.764156s
+merge - 0.004091s
+radix10 - 0.007993s
+radix2 - 0.007972s
+radix256 - 0.001198s
+count - 0.000967s
+quicklast - 0.059851s
+quick3 - 0.001993s
+quickrandom - 0.06071s
+stl - 0.001011s
 
 Teste pentru un vector constant de 1e4 elemente:
 bubble - 0.000997s
-merge - 0.004s
-radix10 - 0.001591s
+merge - 0.004198s
+radix10 - 0.001795s
 radix2 - 0.001989s
-radix256 - 0.001005s
-count - 0.000971s
-quicklast - 0.181903s
-quick3 - 0.089259s
-quickrandom - 0.179438s
+radix256 - 0.001014s
+count - 0.000966s
+quicklast - 0.177467s
+quick3 - 0.087837s
+quickrandom - 0.176759s
+stl - 0.001207s
 
 Teste pentru un vector de 1e4 elemente intre -1e4 si 1e4:
-bubble - 0.724041s
-merge - 0.004799s
-radix10 - 0.008201s
-radix2 - 0.008186s
-radix256 - 0.001412s
-count - 0.000971s
-quicklast - 0.060853s
-quick3 - 0.001795s
-quickrandom - 0.06115s
+bubble - 0.714792s
+merge - 0.004216s
+radix10 - 0.008007s
+radix2 - 0.008407s
+radix256 - 0.001594s
+count - 0.000988s
+quicklast - 0.060842s
+quick3 - 0.001219s
+quickrandom - 0.061069s
+stl - 0.001613s
 
 Teste pentru un vector de 1e4 elemente pozitive intre 0 si 1e8:
-bubble - 0.726403s
-merge - 0.005192s
-radix10 - 0.015168s
-radix2 - 0.016122s
-radix256 - 0.002194s
-count - 0.420758s
-quicklast - 0.060718s
-quick3 - 0.000993s
-quickrandom - 0.061171s
+bubble - 0.716916s
+merge - 0.004604s
+radix10 - 0.015776s
+radix2 - 0.015394s
+radix256 - 0.002396s
+count - 0.382367s
+quicklast - 0.06004s
+quick3 - 0.001216s
+quickrandom - 0.060229s
+stl - 0.001808s
 
 Teste pentru un vector de 1e4 elemente intre -1e8 si 1e8:
-bubble - 0.722261s
-merge - 0.004993s
-radix10 - 0.015976s
-radix2 - 0.015769s
-radix256 - 0.002801s
+bubble - 0.709999s
+merge - 0.00501s
+radix10 - 0.015804s
+radix2 - 0.015372s
+radix256 - 0.002398s
 count - 0
-quicklast - 0.061049s
+quicklast - 0.060465s
 quick3 - 0.001606s
-quickrandom - 0.061681s
+quickrandom - 0.060444s
+stl - 0.001412s
 
 Teste pentru un vector de 1e4 elemente intre -1e16 si 1e16:
-bubble - 0.721621s
-merge - 0.004981s
-radix10 - 0.031371s
-radix2 - 0.031141s
-radix256 - 0.004399s
+bubble - 0.709294s
+merge - 0.004977s
+radix10 - 0.030764s
+radix2 - 0.030542s
+radix256 - 0.004405s
 count - 0
-quicklast - 0.061353s
-quick3 - 0.0016s
-quickrandom - 0.061859s
+quicklast - 0.05994s
+quick3 - 0.001406s
+quickrandom - 0.060486s
+stl - 0.001999s
 
 Teste pentru un vector de 1e6 elemente intre -1e4 si 1e4:
 bubble - 0
-merge - 0.575845s
-radix10 - 0.857594s
-radix2 - 0.865894s
-radix256 - 0.151521s
-count - 0.02956s
+merge - 0.553161s
+radix10 - 0.844914s
+radix2 - 0.8476s
+radix256 - 0.151214s
+count - 0.029342s
 quicklast - 0
-quick3 - 0.225339s
+quick3 - 0.2181s
 quickrandom - 0
+stl - 0.218905s
 
 Teste pentru un vector de 1e6 elemente intre -1e8 si 1e8:
 bubble - 0
-merge - 0.544162s
-radix10 - 1.55266s
-radix2 - 1.559254s
-radix256 - 0.260528s
+merge - 0.559476s
+radix10 - 1.593722s
+radix2 - 1.585804s
+radix256 - 0.264436s
 count - 0
 quicklast - 0
-quick3 - 0.199875s
+quick3 - 0.203942s
 quickrandom - 0
+stl - 0.241521s
 
 Teste pentru un vector de 1e6 elemente intre -1e16 si 1e16:
 bubble - 0
-merge - 0.541369s
-radix10 - 3.071792s
-radix2 - 3.074598s
-radix256 - 0.429072s
+merge - 0.55616s
+radix10 - 3.148134s
+radix2 - 3.167842s
+radix256 - 0.439146s
 count - 0
 quicklast - 0
-quick3 - 0.199881s
+quick3 - 0.206098s
 quickrandom - 0
+stl - 0.246553s
 
 Teste pentru un vector de 1e7 elemente pozitive intre -1e16 si 1e16:
 bubble - 0
-merge - 5.848378s
-radix10 - 30.66776s
-radix2 - 30.77016s
-radix256 - 4.270596s
+merge - 6.122698s
+radix10 - 31.58532s
+radix2 - 31.50916s
+radix256 - 4.37498s
 count - 0
 quicklast - 0
-quick3 - 2.322s
+quick3 - 2.358498s
 quickrandom - 0
+stl - 2.822306s
 
 Teste pentru un vector de 1e7 elemente pozitive intre 0 si 1e16:
 bubble - 0
-merge - 5.854366s
-radix10 - 30.46534s
-radix2 - 30.359s
-radix256 - 3.973956s
+merge - 6.071662s
+radix10 - 31.1928s
+radix2 - 31.382s
+radix256 - 4.110982s
 count - 0
 quicklast - 0
-quick3 - 2.296256s
+quick3 - 2.389694s
 quickrandom - 0
+stl - 2.838538s
 
 Teste pentru un vector de 1e5 elemente pozitive intre 0 si 1e3:
 bubble - 0
-merge - 0.051396s
-radix10 - 0.057809s
-radix2 - 0.057537s
-radix256 - 0.011707s
-count - 0.003005s
+merge - 0.051111s
+radix10 - 0.05794s
+radix2 - 0.057059s
+radix256 - 0.011681s
+count - 0.002992s
 quicklast - 0
-quick3 - 0.02275s
+quick3 - 0.022347s
 quickrandom - 0
+stl - 0.017366s

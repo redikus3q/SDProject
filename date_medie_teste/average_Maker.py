@@ -4,7 +4,7 @@ f3=open("C:/Users/Andu/Desktop/SDProject/date_medie_teste/test3.out")
 f4=open("C:/Users/Andu/Desktop/SDProject/date_medie_teste/test4.out")
 f5=open("C:/Users/Andu/Desktop/SDProject/date_medie_teste/test5.out")
 f=open("C:/Users/Andu/Desktop/SDProject/date_medie_teste/average.out", "w")
-rez=[[0, 0] for i in range(117)]
+rez=[[0, 0] for i in range(130)]
 flist=[f1, f2, f3, f4, f5]
 text=["\nTeste pentru un vector strict crescator de 1e4 elemente:\n",
 "\nTeste pentru un vector strict descrescator de 1e4 elemente:\n",
@@ -27,7 +27,8 @@ sorturi=["bubble - ",
 "count - ",
 "quicklast - ",
 "quick3 - ",
-"quickrandom - "]
+"quickrandom - ",
+"stl - "]
 f.write("0 = Nu s-au rulat teste pentru respectiva sortare.\n")
 def read(f):
     j=0
@@ -42,7 +43,7 @@ for i in flist:
 j=0
 k=0
 for i in rez:
-    if j%9==0:
+    if j%10==0:
         f.write(text[k])
         k+=1
         j=0
