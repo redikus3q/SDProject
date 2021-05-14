@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1615734530 source:c:\users\andu\desktop\uni\structuri de date\sdproject\sorturi\bubblesort.cpp
+	<bits/stdc++.h>
+	"bubblesort.hpp"
+
+1615680088 c:\users\andu\desktop\uni\structuri de date\sdproject\sorturi\bubblesort.hpp
+
+1615725075 source:c:\users\andu\desktop\uni\structuri de date\sdproject\sorturi\countsort.cpp
+	<bits/stdc++.h>
+	"countsort.hpp"
+
+1615680088 c:\users\andu\desktop\uni\structuri de date\sdproject\sorturi\countsort.hpp
+
+1615734544 source:c:\users\andu\desktop\uni\structuri de date\sdproject\sorturi\main.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<chrono>
+	<bits/stdc++.h>
+	"bubblesort.hpp"
+	"countsort.hpp"
+	"radixsort.hpp"
+	"mergesort.hpp"
+	"quicksort.hpp"
+
+1615680088 c:\users\andu\desktop\uni\structuri de date\sdproject\sorturi\radixsort.hpp
+
+1615680088 c:\users\andu\desktop\uni\structuri de date\sdproject\sorturi\mergesort.hpp
+
+1615680088 c:\users\andu\desktop\uni\structuri de date\sdproject\sorturi\quicksort.hpp
+
+1615680088 source:c:\users\andu\desktop\uni\structuri de date\sdproject\sorturi\mergesort.cpp
+	<bits/stdc++.h>
+	"mergesort.hpp"
+
+1615680088 source:c:\users\andu\desktop\uni\structuri de date\sdproject\sorturi\quicksort.cpp
+	<bits/stdc++.h>
+	"quicksort.hpp"
+
+1615680088 source:c:\users\andu\desktop\uni\structuri de date\sdproject\sorturi\radixsort.cpp
+	<bits/stdc++.h>
+	"radixsort.hpp"
+
