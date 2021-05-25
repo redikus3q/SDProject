@@ -1,16 +1,18 @@
 # depslib dependency file v1.0
-1619903415 source:c:\users\andu\desktop\uni\structuri de date\sdproject\splay\nodeclass.cpp
+1619903612 source:c:\users\andu\desktop\uni\structuri de date\sdproject\splay\nodeclass.cpp
 	"Nodeclass.hpp"
 
 1619903587 c:\users\andu\desktop\uni\structuri de date\sdproject\splay\nodeclass.hpp
 
-1619903220 source:c:\users\andu\desktop\uni\structuri de date\sdproject\splay\main.cpp
+1621971192 source:c:\users\andu\desktop\uni\structuri de date\sdproject\splay\main.cpp
 	<iostream>
+	<vector>
 	"Splayclass.hpp"
 
-1619903721 c:\users\andu\desktop\uni\structuri de date\sdproject\splay\splayclass.hpp
+1621971648 c:\users\andu\desktop\uni\structuri de date\sdproject\splay\splayclass.hpp
 	"Nodeclass.hpp"
 
-1619901928 source:c:\users\andu\desktop\uni\structuri de date\sdproject\splay\splayclass.cpp
+1621971217 source:c:\users\andu\desktop\uni\structuri de date\sdproject\splay\splayclass.cpp
 	"Splayclass.hpp"
+	<iostream>
 
