@@ -1,6 +1,4 @@
-# ds-projects
-Projects for the Data Structures class.
-
+# Data structures class projects
 Sorturi - Project analyzing the efficiency of some sorting algorithms
 
-Splay tree - Implement a self-balancing splay tree
+Splay tree - Implementation of a self-balancing splay tree
